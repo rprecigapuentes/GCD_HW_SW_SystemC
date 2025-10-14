@@ -100,13 +100,11 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 ```
 ├─ GCD_HW/
 │  ├─ ALU/ ControlUnit/ GCD_System/ MUX_1_2/ MUX_1_4/
-│  ├─ GCD_tb.cpp / GCD_test.cpp / Makefile / gcd_wave.vcd
-│  └─ README.md
+│  └─ GCD_tb.cpp / GCD_test.cpp / Makefile / gcd_wave.vcd
 │
 ├─ GCD_SW/
 │  ├─ assembler/ decode/ fetch/ icache/ register/ ...
-│  ├─ gcd.asm / gcd_auto.py / gcd_prueba.py / Makefile
-│  └─ README.md
+│  └─ gcd.asm / gcd_auto.py / gcd_prueba.py / Makefile
 │
 └─ README.md (this file)
 ```
@@ -118,7 +116,6 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 - David Harris, Sarah Harris. *Digital Design and Computer Architecture.*  
 - IEEE Std 1666-2011 — *SystemC Language Reference Manual.*  
 - [SystemC Official Site](https://systemc.org/overview/systemc/)  
-- [GCD_HW_SW_SystemC GitHub Repository](https://github.com/rprecigapuentes/GCD_HW_SW_SystemC)
 
 ---
 
