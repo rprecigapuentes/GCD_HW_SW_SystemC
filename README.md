@@ -5,7 +5,7 @@ This project was developed as part of the *Digital Systems Verification* course 
 
 ---
 
-## 🧩 Overview
+## Overview
 
 The objective of this project was to compare the performance and design process between a **software implementation** and a **hardware implementation** of Euclid’s GCD algorithm.
 
@@ -18,7 +18,7 @@ The objective of this project was to compare the performance and design process 
 
 ---
 
-## 📑 Reports
+## Reports
 
 The complete project report, including methodology, implementation details, and simulation results, can be found here:
 
@@ -27,7 +27,7 @@ The complete project report, including methodology, implementation details, and 
 
 ---
 
-## ⚙️ Software Implementation
+## Software Implementation
 
 The software version was executed on a custom **RISC processor** built in SystemC, including modules for:
 - **Instruction cache** (`icache`)
@@ -36,7 +36,7 @@ The software version was executed on a custom **RISC processor** built in System
 
 The program implementing the GCD algorithm was written in **assembly** and executed through the SystemC simulator.
 
-### 🔍 Debugging and Findings
+### Debugging and Findings
 
 During implementation, we found a **critical bug** in the processor’s decoder (`decode.cpp`):  
 the **program counter (PC)** was being **overwritten** after branch instructions, which caused jumps (`beq`, `blt`) to be ignored.
@@ -56,7 +56,7 @@ As a result, branch destinations had to point to the line **before** the intende
 
 ---
 
-## 🧠 Automation with Python
+## Automation with Python
 
 To validate the implementation, two Python scripts were created:
 
@@ -75,7 +75,7 @@ The script parses simulation output to extract:
 
 ---
 
-## 🔧 Hardware Implementation
+## Hardware Implementation
 
 The hardware implementation includes:
 - **ALU** – Performs AND, ADD, SUB, and MSB extraction operations.  
@@ -93,7 +93,7 @@ The simulation results are also available in `gcd_wave.vcd` for waveform visuali
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Implementation | Avg. Cycles | Notes |
 |----------------|-------------|-------|
@@ -104,7 +104,7 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 
 ---
 
-## 🧾 Repository Structure
+## Repository Structure
 
 ```
 ├─ GCD_HW/
@@ -120,7 +120,7 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 
 ---
 
-## 📚 References
+## References
 
 - David Harris, Sarah Harris. *Digital Design and Computer Architecture.*  
 - IEEE Std 1666-2011 — *SystemC Language Reference Manual.*  
@@ -128,7 +128,7 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 
 ---
 
-### ✉️ Authors
+### Authors
 - **Rosemberth Steeven Preciga Puentes**  
 - **Luis Guillermo Vaca Rincón**
 
