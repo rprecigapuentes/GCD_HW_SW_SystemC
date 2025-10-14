@@ -132,5 +132,5 @@ In specific cases (e.g., equal inputs or zero values), the hardware design achie
 - **Rosemberth Steeven Preciga Puentes**  
 - **Luis Guillermo Vaca Rincón**
 
-National University of Colombia – Faculty of Engineering  
+Universidad Nacional de Colombia – Faculty of Engineering  
 Course: Digital Systems Verification – 2025-I
