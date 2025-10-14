@@ -22,8 +22,8 @@ The objective of this project was to compare the performance and design process 
 
 The complete project report, including methodology, implementation details, and simulation results, can be found here:
 
-- [📘 GCD_Report_EN.pdf](reports/GCD_Report_EN.pdf) – Full report in English.  
-- [📗 GCD_Report_ES.pdf](reports/GCD_Report_ES.pdf) – Original version in Spanish.
+- [GCD_Report_EN.pdf](reports/GCD_Report_EN.pdf) – Full report in English.  
+- [GCD_Report_ES.pdf](reports/GCD_Report_ES.pdf) – Original version in Spanish.
 
 ---
 
